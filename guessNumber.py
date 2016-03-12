@@ -16,7 +16,7 @@ while(1):
     guess_number = [number1, number2, number3, number4]    
     print(guess_number)
     play_game = input("Enter 1 to play the game :")    
-    if int(play_game) == 1:        
+    if play_game == '1':        
         confrim_number = 1
         while(confrim_number):
             os.system('cls')
@@ -38,6 +38,7 @@ while(1):
                 confrim_number = 0
                 print("You win the game!!!!!!")
             print(A,'A',B,'B')
+            os.system('pause')
                 
                 
         
